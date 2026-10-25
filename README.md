@@ -16,11 +16,11 @@ Analysis methods generally append their results to self.df and return the CClamp
 Dependencies: NumPy, pandas, Matplotlib, SciPy, pathlib, and Tkinter, with Matplotlib's Tkinter backend for interactive annotation.
 
 
---Workflow
-- Obtain HEKA .dat files from current-clamp recordings
-- Process .dat files via Matlab (HEKA Patchmaster importer, https://www.mathworks.com/matlabcentral/fileexchange/70164-heka-patchmaster-importer?s_tid=FX_rc1_behav)
-- read and save data in a python/pandas dataframe structure (use mat2ptyhon_HEKAimmporter.ipynb)
-- read and analyze the structure via CurrentClamp_class
+--Workflow:
+1) Obtain HEKA .dat files from current-clamp recordings
+2) Process .dat files via Matlab (HEKA Patchmaster importer, https://www.mathworks.com/matlabcentral/fileexchange/70164-heka-patchmaster-importer?s_tid=FX_rc1_behav)
+3) read and save data in a python/pandas dataframe structure (use mat2ptyhon_HEKAimmporter.ipynb)
+4) read and analyze the structure via CurrentClamp_class
 
 
 - TO DO:
