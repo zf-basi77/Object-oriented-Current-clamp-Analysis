@@ -17,11 +17,12 @@ Dependencies: NumPy, pandas, Matplotlib, SciPy, pathlib, and Tkinter, with Matpl
 
 
 --Workflow
--Obtain HEKA .dat files from current-clamp recordings
--Process .dat files via Matlab (HEKA Patchmaster importer, https://www.mathworks.com/matlabcentral/fileexchange/70164-heka-patchmaster-importer?s_tid=FX_rc1_behav)
--read and save data in a python/pandas dataframe structure (use mat2ptyhon_HEKAimmporter.ipynb)
--read and analyze the structure via CurrentClamp_class
+- Obtain HEKA .dat files from current-clamp recordings
+- Process .dat files via Matlab (HEKA Patchmaster importer, https://www.mathworks.com/matlabcentral/fileexchange/70164-heka-patchmaster-importer?s_tid=FX_rc1_behav)
+- read and save data in a python/pandas dataframe structure (use mat2ptyhon_HEKAimmporter.ipynb)
+- read and analyze the structure via CurrentClamp_class
 
 
 - TO DO:
 - add images of visualization exampled (Phase plots, AP plots, diagnostic plots, etc)
+- add sample data for user to understand workflow and file structures
